@@ -4,6 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:ulearning_app/app_blocs.dart';
 import 'package:ulearning_app/app_events.dart';
 import 'package:ulearning_app/app_states.dart';
+import 'package:ulearning_app/pages/sign_in/sign_in.dart';
 import 'package:ulearning_app/pages/welcome/bloc/welcome_blocs.dart';
 import 'package:ulearning_app/pages/welcome/welcome.dart';
 
@@ -29,10 +30,18 @@ class MyApp extends StatelessWidget {
       ],
       child: ScreenUtilInit(
         builder: (context, child) => MaterialApp(
+          theme: ThemeData(
+            useMaterial3: true,
+            appBarTheme: const AppBarTheme(
+              elevation: 0,
+              backgroundColor: Colors.white,
+            ),
+          ),
           debugShowCheckedModeBanner: false,
           home: const Welcome(),
           routes: {
             'myHomePage': (context) => const MyHomePage(),
+            'signIn': (context) => const SignIn(),
           },
         ),
       ),
@@ -52,7 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Fluttter demo home page'),
+        title: const Text('Fluttter demo home page'),
       ),
       body: Center(
         child: BlocBuilder<AppBlocs, AppStates>(
