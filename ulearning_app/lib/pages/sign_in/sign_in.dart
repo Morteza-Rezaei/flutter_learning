@@ -25,7 +25,7 @@ class _SignInState extends State<SignIn> {
                 Center(child: reusableText('Or use your email account login')),
                 Container(
                   margin: EdgeInsets.only(
-                    top: 66.h,
+                    top: 36.h,
                   ),
                   padding: EdgeInsets.only(
                     left: 25.w,
