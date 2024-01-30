@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "475878668296",
+    "project_id": "dbestech-flutter-shop-app-bloc",
+    "storage_bucket": "dbestech-flutter-shop-app-bloc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475878668296:android:a6fa6d93e321b4fc3279bd",
+        "android_client_info": {
+          "package_name": "com.example.ulearning_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBig7fD2gj-7XW07DOR9lNkAUO5zZbuAfE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

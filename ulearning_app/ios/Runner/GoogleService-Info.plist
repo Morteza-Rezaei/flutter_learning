@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyAScJLuH_hamusluXAo6b1u2J7lVxs89HA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>475878668296</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.ulearningApp</string>
+	<key>PROJECT_ID</key>
+	<string>dbestech-flutter-shop-app-bloc</string>
+	<key>STORAGE_BUCKET</key>
+	<string>dbestech-flutter-shop-app-bloc.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:475878668296:ios:55d02900bb1ee6f43279bd</string>
+</dict>
+</plist>
