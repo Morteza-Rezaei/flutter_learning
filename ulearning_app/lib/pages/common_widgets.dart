@@ -79,7 +79,7 @@ Widget buildTextField(String hintText, String textType, String iconName,
         color: Colors.white,
         borderRadius: BorderRadius.circular(15.r),
         border: Border.all(
-          color: AppColors.primaryFourElementText,
+          color: AppColors.primaryFourthElementText,
         ),
       ),
       child: Row(
@@ -183,7 +183,7 @@ Widget buildLogInAndRegButton(
             //check for registration button border color
             color: buttonType == 'login'
                 ? Colors.transparent
-                : AppColors.primaryFourElementText,
+                : AppColors.primaryFourthElementText,
           ),
           boxShadow: [
             BoxShadow(
